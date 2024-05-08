@@ -41,22 +41,27 @@ padding:16px 32px 16px 32px;
 .text-1{
    align-content: center;
     font-size: small;
+    display: flex;
+}
+.three-dots{
+    display: flex;
+    align-items: center;
+    margin-left: 21px;
 }
 .three-dot{
     width: 6px;
     height: 6px;
     border-radius: 50%;
    border: solid 1px #000;
+   margin-left: 3px;
 }
-.three-dot:hover{
-   border-color: var(--RED);
-}
+
 .three-dots ul{
 list-style: none;
 display: flex;
 }
 
-.text-1 ul{
+.text-1-ul{
     display: flex;
 
     align-items: center;
@@ -70,7 +75,6 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     align-content: end;
-    padding-left: 45px;
     padding-bottom: 3px;
    
 }
@@ -88,6 +92,7 @@ gap:5px
 }
 .text-3 ul li p{
 align-self: center;
+font-size: 13px;
 column-gap: 3px;
 }
 .icons-text{
@@ -104,7 +109,8 @@ margin-top: 30px;
     display: flex;
     list-style: none;
     justify-content: flex-end;
-    margin-right: 110px;
+    column-gap: 11px;
+    margin-right: 25px;
 }
 .header-2 div ul li{
 padding: 0 9px 0 9px;
@@ -244,7 +250,7 @@ margin-top: 40px;
     position: relative;
  display: flex;
  justify-content: center;
- margin-top: 48px;
+ margin-top: 24px;
 }
 .image{
     background-position: center;
@@ -255,7 +261,7 @@ margin-top: 40px;
 }
 .image-2{
 position: relative;
-background-image: url("/images/sec-2-img.avif");
+background-image: url("./images/sec-2-img.avif");
 
 }
 .pop-note-1{
@@ -401,8 +407,8 @@ color: #fff;
 }
 .favorite-black{
     position: relative;
-    top: 78.1%;
-    right: 17.2%;
+    top:  78.4%;
+    right: 17.4%;
 }
 .black-icon{
     z-index: 1;
@@ -473,7 +479,7 @@ a:hover{
 }
 .image-4{
     margin-top: 25px;
-    background-image: url("/images/sec-4-image.avif");
+    background-image: url("./images/sec-4-image.avif");
     position: relative;
     display: flex;
     justify-content: center;
@@ -513,7 +519,7 @@ a:hover{
 }
 .image-5{
     position: relative;
-    background-image: url("/images/sec-5-image.avif");
+    background-image: url("./images/sec-5-image.avif");
     
     margin-top: 24px;
 }
@@ -548,7 +554,7 @@ a:hover{
     margin-top: 24px;
 }
 .image-6{
-    background-image: url("/images/sec-6-image.jpg");
+    background-image: url("./images/sec-6-image.jpg");
     position: relative;
     background-position: center;
     background-size: cover;
@@ -594,7 +600,7 @@ a:hover{
 }
 
 .image-7{
-    background-image: url("/images/sec-7-image.avif");
+    background-image: url("./images/sec-7-image.avif");
     position: relative;
 
 }
@@ -656,7 +662,7 @@ a:hover{
     margin-top: 24px;
 }
 .image-8{
-    background-image: url("/images/sec-8-image.avif");
+    background-image: url("./images/sec-8-image.avif");
     position: relative;
 }
 .pop-note-4{
@@ -786,4 +792,10 @@ column-gap: 30px;
 }
 .fa-brands{
     font-size: 19px;
+}
+.F-P4{
+
+}
+.arrowfooter{
+    top: 6%;
 }
